@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00c8c34d-d701-450e-823f-250cba2688a8">
+  <producedTypes>
+    <selectionType typeId="6d32bb40-8d4a-4356-86a5-7179c0caa0a8" valueTypeId="10912679-1c93-482a-b5ee-7371f7f3b003"/>
+    <listType typeId="1a6cd0ac-6658-4444-a7be-b54dde8ffbf4" valueTypeId="b861a6fc-bdf4-4127-a226-8bdbd2c7a0a5"/>
+    <managerType typeId="4da2f142-0431-4d3f-94ec-3ea4ba3f29d2" valueTypeId="bc841d2e-523c-4cc2-a0be-41e393cb4637"/>
+    <recordSetType typeId="8924ce9c-f444-4f13-b4fb-6e8263af7c57" valueTypeId="4ec62ca1-8080-4583-88af-0b41214f82da"/>
+    <recordKeyType typeId="bdceaf2e-8dcc-4aa6-8db8-944d1bd023f6" valueTypeId="4ba7d257-44ce-4bd0-a53e-728fe2506235"/>
+    <recordType typeId="96e11a7a-a440-4811-8c63-41f916e21718" valueTypeId="bff11ddd-cc16-49ee-9c31-29bde96acf35"/>
+    <recordManagerType typeId="3159e31e-5cf9-42f1-a1b8-df1b610332a6" valueTypeId="2714f223-2093-4743-b541-a4c0a2bb124b"/>
+  </producedTypes>
+  <name>ПорцияОтложенногоРасчетаПоказателейОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порция отложенного расчета показателей объектов</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="df63f804-cd46-4abe-b7fd-e37f86a2db16">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПоказателиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ba1b7e01-e409-4423-8378-349df3a2b860">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

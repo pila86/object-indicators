@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3547674-d99c-4882-bf91-f7e617ef56d6">
+  <producedTypes>
+    <selectionType typeId="cdc76bfe-64e0-47c5-b024-d65fb8cf427e" valueTypeId="cd13169a-dc05-44eb-9b4c-fbc10a72103f"/>
+    <listType typeId="6e48773b-bad4-4ff9-a8a3-352d2c4ec087" valueTypeId="44034b75-c1df-412b-b030-492065b7acd4"/>
+    <managerType typeId="183e02dc-2d54-40e1-a9e7-60ab9140cccf" valueTypeId="ef4ad260-cb64-4243-9e70-7b69d6b9911d"/>
+    <recordSetType typeId="a71cba70-f240-4dba-8ed4-f358ce31e128" valueTypeId="1afb4e6b-d99d-4f82-a633-e3e5a0ee1f1a"/>
+    <recordKeyType typeId="fd046171-7d4b-48e7-8614-9ddca3a368cd" valueTypeId="67030537-edac-40fc-ac12-507949551df6"/>
+    <recordType typeId="801c5b9a-391a-4b7d-8801-732f173d5ac8" valueTypeId="0188145b-0eb8-4c75-b230-55dd68b4f1db"/>
+    <recordManagerType typeId="5bf67609-c75a-4852-8077-2077c0661509" valueTypeId="d582dfb0-34e2-4079-be31-7cb051704b6e"/>
+  </producedTypes>
+  <name>ДемоШтрихкодыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо штрихкоды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a67dcd2a-d523-4e3a-8e9a-50ca797c135b">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="6033ba41-f3dd-43de-82c2-6089ca8fcf1d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДемоНоменклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

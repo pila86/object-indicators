@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e18817b0-2970-4930-9169-7394119d87bc">
+  <producedTypes>
+    <objectType typeId="7f4aefeb-0386-41f9-b871-b7fa94047944" valueTypeId="341171be-9646-4569-bf9c-f6071db86e59"/>
+    <refType typeId="b8dd7cb4-b70e-489e-b729-ffb7668ec022" valueTypeId="0cbccdcb-ba60-4226-878c-eaeb9348daa0"/>
+    <selectionType typeId="5bdf5b97-865d-48c9-8a1d-ba011d5b410d" valueTypeId="f8b01650-0cc2-4636-a3a1-5b075afa665d"/>
+    <listType typeId="8edaf08a-de10-4e1f-9eb3-e7d51926e5fe" valueTypeId="c68bc03d-4a05-4b55-8f89-69735a2d20e6"/>
+    <managerType typeId="62317695-d3d7-495d-8a5f-5d19a2c5d1fc" valueTypeId="e295eb83-809a-4e77-bc2c-ebf33782f18a"/>
+  </producedTypes>
+  <name>ДемоПоставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДемоПоставщики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДемоПоставщики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.ПоказателиОбъектов.TabularSection.Владельцы</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.ПоказателиОбъектов.TabularSection.Владельцы.StandardAttribute.Ref</keyField>
+    <typesFilterField>ChartOfCharacteristicTypes.ПоказателиОбъектов.TabularSection.Владельцы.Attribute.ВладелецПолноеИмя</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник.Поставщики</value>
+    </typesFilterValue>
+    <characteristicValues>InformationRegister.ЗначенияПоказателейОбъектов</characteristicValues>
+    <objectField>InformationRegister.ЗначенияПоказателейОбъектов.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ЗначенияПоказателейОбъектов.Dimension.Показатель</typeField>
+    <valueField>InformationRegister.ЗначенияПоказателейОбъектов.Resource.ЗначениеПоказателя</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="0302edb2-4eb5-4000-aa52-c1a3308e362e">
+    <producedTypes>
+      <objectType typeId="e335c9c5-5e35-485c-95d9-e321bf2d877a" valueTypeId="51c24546-ba86-465b-9247-cc1f8a1651bd"/>
+      <rowType typeId="03108fcd-ae20-4f29-a3cc-defd5e5fae44" valueTypeId="ba9557e8-89a2-4296-8094-26c928a8b9e6"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="6815e116-0610-4a50-8725-22f433053137">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДемоНоменклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="193755da-a257-4844-b3e3-afd0d419c9c8">
+  <producedTypes>
+    <refType typeId="4eb8587b-8f9d-4b50-9428-17653beefeed" valueTypeId="8a744c99-fbbd-4557-a0ed-576b009c9923"/>
+    <listType typeId="96413f00-6d80-456d-8f74-86866391c368" valueTypeId="5f80f5b3-7cc2-4fb9-8bdb-47bf08fd91d3"/>
+    <managerType typeId="ca20e289-c363-41a7-8d88-e90179b0f023" valueTypeId="0cf7a6c0-4398-42c5-85ef-f77856d6fe7f"/>
+  </producedTypes>
+  <name>СпособыРасчетаПоказателейОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета показателей объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed0e191e-1115-4269-bb4d-d609bfe26fe9">
+    <name>ВыполнитьКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить код</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="726d7036-d2d1-4043-88c6-786f70d275b0">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

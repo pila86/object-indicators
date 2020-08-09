@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6adf44e-0c77-48b3-931c-a0609a902afc">
+  <producedTypes>
+    <refType typeId="2bd85c3e-2d29-415b-b426-972b7cd61dc0" valueTypeId="ce88adb2-a8ef-4cf1-90e6-1aa5966f8994"/>
+    <listType typeId="085dbfcd-733a-4011-951f-8ed32023cb41" valueTypeId="6d1b32a5-60f2-4e5f-a8c4-9c34b27969e6"/>
+    <managerType typeId="17bba07d-045d-4e83-8234-1f81fe6d2c2e" valueTypeId="cf73b9c9-dbd0-4908-9c00-507bf3da5713"/>
+  </producedTypes>
+  <name>ПериодичностьПоказателяОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность показателя объекта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b50ee717-f83c-4930-8eb9-d83784b56bd9">
+    <name>Непериодический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непериодический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32b62119-2b38-42c0-8357-2a4318cc8113">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c0cf29f-2ce7-44b4-8825-e15aacad53f7">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d635b15-12b1-4a3d-a0b6-6747ca0616b7">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f53c1d2-216f-4e61-ba53-10ce5d88e55f">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67aaab55-28c2-4ddf-a196-d2bb38ecff5b">
+    <name>Секунда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секунда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

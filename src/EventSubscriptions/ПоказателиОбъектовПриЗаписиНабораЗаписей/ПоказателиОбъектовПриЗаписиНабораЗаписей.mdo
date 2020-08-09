@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="805d8fc1-e663-4be9-968f-7f43411f4bc1">
+  <name>ПоказателиОбъектовПриЗаписиНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели объектов при записи набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПоказателиОбъектовСобытия.ПриЗаписиНабораЗаписей</handler>
+</mdclass:EventSubscription>

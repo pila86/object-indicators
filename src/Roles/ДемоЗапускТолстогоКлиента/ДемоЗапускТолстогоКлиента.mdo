@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdb450f9-0039-4089-8910-b708c005935f">
+  <name>ДемоЗапускТолстогоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо запуск толстого клиента</value>
+  </synonym>
+</mdclass:Role>

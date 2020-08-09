@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="838f756c-eaff-4a25-ab2f-caa13ae47b53">
+  <producedTypes>
+    <selectionType typeId="3281693e-e2eb-49dd-bb37-0a6d322107a8" valueTypeId="e626c1ea-21ab-4296-8b41-4b3a4ffc2b84"/>
+    <listType typeId="9aea6227-b027-455c-8d13-41664536a27e" valueTypeId="244e6d3d-3e36-49c0-8553-fb46a2c7a8a4"/>
+    <managerType typeId="8a168710-7639-40eb-a605-3920d2d6f18c" valueTypeId="eaa5829c-cd41-4b55-b3be-67bb63bf4f9a"/>
+    <recordSetType typeId="3623c9d0-5fed-458d-a9b4-ba38e851a8a9" valueTypeId="892ff1fa-ce77-43de-9c24-56de1355c791"/>
+    <recordKeyType typeId="0ff865d7-f769-4fc5-8df7-d913b12b02f4" valueTypeId="b72ec06c-21fa-4654-986b-c147e8ee2412"/>
+    <recordType typeId="676fbc45-f74c-44a0-9fa5-5d172f1a4099" valueTypeId="dcc86c35-87a6-4c73-b7c4-cac9c78fbac0"/>
+    <recordManagerType typeId="3b45c196-32c3-467c-b7bf-e68ea21c1e4a" valueTypeId="43b9b74d-c904-475b-8b9c-341e8b8970fe"/>
+  </producedTypes>
+  <name>ЗначенияПериодическихПоказателейОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения периодических показателей объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cea18718-76b5-4b18-8a75-8eb69bff82f6">
+    <name>ЗначениеПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение показателя</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПоказателиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.ЗначенияПериодическихПоказателейОбъектов.Dimension.Показатель</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="41cd055f-f9b1-4210-9fa3-6d29da1bb315">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="176f707e-5c90-4ba7-a50a-5674903f7721">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПоказателиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

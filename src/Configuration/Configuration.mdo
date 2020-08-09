@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44f146d0-67a6-4338-9423-982f0dd6bbee">
+  <name>ПоказателиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели объектов</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6ea291db-83c9-4ee7-9832-c2679321bb2c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="774d80ee-9340-4458-9e0e-0de29238ea02"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1a96e9ed-1314-47b8-a352-87c20bd1b933"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b95c1664-1798-40fb-9ecf-2e3620b36ba6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9ca07415-f7f1-462f-ae06-1f184326466c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6815b701-1e69-4260-9bb4-45e78e27e24e"/>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ДемоПолныеПрава</defaultRoles>
+  <defaultRoles>Role.ДемоАдминистраторСистемы</defaultRoles>
+  <defaultRoles>Role.ДемоИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="d9addd1f-2bf2-4790-87fa-a3f2afd8a4bd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Демо</subsystems>
+  <subsystems>Subsystem.ПоказателиОбъектов</subsystems>
+  <roles>Role.ДемоАдминистраторСистемы</roles>
+  <roles>Role.ДемоДобавлениеИзменениеСправочниковДокументов</roles>
+  <roles>Role.ДемоЗапускТолстогоКлиента</roles>
+  <roles>Role.ДемоЗапускТонкогоКлиента</roles>
+  <roles>Role.ДемоИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <roles>Role.ДемоПолныеПрава</roles>
+  <roles>Role.ДобавлениеИзменениеПоказателейОбъектов</roles>
+  <roles>Role.ЧтениеПоказателейОбъектов</roles>
+  <commonModules>CommonModule.ПоказателиОбъектов</commonModules>
+  <commonModules>CommonModule.ПоказателиОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПоказателиОбъектовПовтИсп</commonModules>
+  <commonModules>CommonModule.ПоказателиОбъектовСлужебный</commonModules>
+  <commonModules>CommonModule.ПоказателиОбъектовСобытия</commonModules>
+  <eventSubscriptions>EventSubscription.ПоказателиОбъектовПриЗаписиОбъекта</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПоказателиОбъектовПриЗаписиНабораЗаписей</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПоказателиОбъектовПередЗаписьюОбъекта</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПоказателиОбъектовПередЗаписьюДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПоказателиОбъектовПередЗаписьюНабораЗаписей</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ОтложенныйРассчетПоказателей</scheduledJobs>
+  <scheduledJobs>ScheduledJob.РегламентныйРасчетПоказателя</scheduledJobs>
+  <catalogs>Catalog.ДемоНоменклатура</catalogs>
+  <catalogs>Catalog.ДемоПоставщики</catalogs>
+  <catalogs>Catalog.ОбъектыМетаданныхПО</catalogs>
+  <catalogs>Catalog.СвойстваОбъектовМетаданныхПО</catalogs>
+  <documents>Document.ДемоПриходнаяНакладная</documents>
+  <documents>Document.ДемоРасходнаяНакладная</documents>
+  <enums>Enum.ПериодичностьПоказателяОбъекта</enums>
+  <enums>Enum.СпособыРасчетаПоказателейОбъектов</enums>
+  <dataProcessors>DataProcessor.ПанельАдминистрированияПО</dataProcessors>
+  <informationRegisters>InformationRegister.ДемоШтрихкодыНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияПериодическихПоказателейОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияПоказателейОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьОтложенногоРасчетаПоказателейОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.ПорцияОтложенногоРасчетаПоказателейОбъектов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДемоОстаткиТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПоказателиОбъектов</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

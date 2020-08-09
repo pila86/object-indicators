@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="542ee539-8fa9-4272-a00b-22a88c1cade2">
+  <name>Демо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДемоНоменклатура</content>
+  <content>Catalog.ДемоПоставщики</content>
+  <content>Document.ДемоПриходнаяНакладная</content>
+  <content>Document.ДемоРасходнаяНакладная</content>
+  <content>InformationRegister.ДемоШтрихкодыНоменклатуры</content>
+  <content>AccumulationRegister.ДемоОстаткиТоваров</content>
+  <content>Role.ДемоПолныеПрава</content>
+  <content>Role.ДемоАдминистраторСистемы</content>
+  <content>Role.ДемоИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>Role.ДемоДобавлениеИзменениеСправочниковДокументов</content>
+  <content>Role.ДемоЗапускТонкогоКлиента</content>
+  <content>Role.ДемоЗапускТолстогоКлиента</content>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47697567-48f3-48c5-b192-3f0f455f79e6">
+  <name>ПоказателиОбъектовПередЗаписьюДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели объектов перед записью документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПоказателиОбъектовСобытия.ПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

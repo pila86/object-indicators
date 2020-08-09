@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1de5dce-00d2-464d-9e93-97022fd3b47e">
+  <producedTypes>
+    <selectionType typeId="0ca7ded7-8cdd-4bc9-bc2a-74b0a8ff3dcb" valueTypeId="02d6eeb7-46d5-4275-95e6-3eb0cb47feef"/>
+    <listType typeId="66dd78de-6ce0-43a1-9986-5001c392294d" valueTypeId="41fca78a-c879-4189-a197-0d5387717a8b"/>
+    <managerType typeId="29e25659-eafa-47a8-a575-3745a884fa8b" valueTypeId="33752786-d678-47bf-810c-93ad829173e5"/>
+    <recordSetType typeId="646c503d-d83a-4eb7-aa47-415e0913c629" valueTypeId="a6743ec5-918b-42a1-a926-9ca3d39fc8c5"/>
+    <recordKeyType typeId="9ed83b60-f7f1-4e50-aa72-fe004317dad4" valueTypeId="2d04f288-4aa8-44a6-a450-ed2b3d365413"/>
+    <recordType typeId="d34dfba2-f4f7-4fea-bf7a-21c65cc8eb97" valueTypeId="bfa06874-2e23-47f2-96bd-2a8987a41666"/>
+    <recordManagerType typeId="a6d88a9b-824e-4b59-85fb-d02359d43e4b" valueTypeId="5cc16f93-d950-41ac-b1ed-73c8692a1a90"/>
+  </producedTypes>
+  <name>ОчередьОтложенногоРасчетаПоказателейОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь отложенного расчета показателей объектов</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="66bee565-da4d-489a-a46d-8b3730923bd5">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="fe102e90-a5b1-4311-8ca6-36c0a58b9038">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПоказателиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="68093c93-8c1c-40cd-a6d8-4db3c65cb52f">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

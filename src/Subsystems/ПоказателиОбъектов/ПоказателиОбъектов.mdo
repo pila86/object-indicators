@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a898bb4c-4082-4d57-9c0e-23e6fee1f1b6">
+  <name>ПоказателиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ПоказателиОбъектовПереопределяемый</content>
+  <content>CommonModule.ПоказателиОбъектов</content>
+  <content>CommonModule.ПоказателиОбъектовПовтИсп</content>
+  <content>CommonModule.ПоказателиОбъектовСлужебный</content>
+  <content>CommonModule.ПоказателиОбъектовСобытия</content>
+  <content>EventSubscription.ПоказателиОбъектовПриЗаписиОбъекта</content>
+  <content>EventSubscription.ПоказателиОбъектовПриЗаписиНабораЗаписей</content>
+  <content>EventSubscription.ПоказателиОбъектовПередЗаписьюОбъекта</content>
+  <content>EventSubscription.ПоказателиОбъектовПередЗаписьюДокумента</content>
+  <content>EventSubscription.ПоказателиОбъектовПередЗаписьюНабораЗаписей</content>
+  <content>ScheduledJob.ОтложенныйРассчетПоказателей</content>
+  <content>ScheduledJob.РегламентныйРасчетПоказателя</content>
+  <content>Catalog.ОбъектыМетаданныхПО</content>
+  <content>Catalog.СвойстваОбъектовМетаданныхПО</content>
+  <content>Enum.СпособыРасчетаПоказателейОбъектов</content>
+  <content>Enum.ПериодичностьПоказателяОбъекта</content>
+  <content>DataProcessor.ПанельАдминистрированияПО</content>
+  <content>ChartOfCharacteristicTypes.ПоказателиОбъектов</content>
+  <content>InformationRegister.ЗначенияПоказателейОбъектов</content>
+  <content>InformationRegister.ЗначенияПериодическихПоказателейОбъектов</content>
+  <content>InformationRegister.ОчередьОтложенногоРасчетаПоказателейОбъектов</content>
+  <content>InformationRegister.ПорцияОтложенногоРасчетаПоказателейОбъектов</content>
+  <content>Role.ДобавлениеИзменениеПоказателейОбъектов</content>
+  <content>Role.ЧтениеПоказателейОбъектов</content>
+</mdclass:Subsystem>
