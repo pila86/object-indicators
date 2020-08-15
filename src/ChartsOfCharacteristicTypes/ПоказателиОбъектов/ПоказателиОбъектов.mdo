@@ -123,6 +123,7 @@
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>ChartOfCharacteristicTypes.ПоказателиОбъектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ПоказателиОбъектов.Form.ФормаСписка</defaultListForm>
   <attributes uuid="08d32832-fb44-41ec-83ae-5c4747bd03a9">
     <name>СпособРасчета</name>
     <synonym>
@@ -487,6 +488,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8427740-4771-4cf2-920b-98e5a26c540a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
