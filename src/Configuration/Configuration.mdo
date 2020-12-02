@@ -18,6 +18,8 @@
   <defaultRoles>Role.ДемоПолныеПрава</defaultRoles>
   <defaultRoles>Role.ДемоАдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ДемоИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
+  <vendor>Пильников Николай</vendor>
+  <version>1.0.0.1</version>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
     <use>true</use>
